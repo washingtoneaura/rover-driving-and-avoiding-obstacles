@@ -13,9 +13,9 @@ input.onButtonPressed(Button.B, function () {
     isMoving = 0
     hummingbird.setTriLED(
     TwoPort.One,
-    100,
     0,
-    0
+    0,
+    100
     )
     hummingbird.setRotationServo(FourPort.One, 0)
     hummingbird.setRotationServo(FourPort.Two, 0)
